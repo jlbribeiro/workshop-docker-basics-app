@@ -1,8 +1,10 @@
 FROM python:3-alpine
 
+COPY requirements.txt /tmp/
+
+RUN pip install -r /tmp/requirements.txt
+
 COPY . /code
 WORKDIR /code
-
-RUN pip install -r requirements.txt
 
 EXPOSE 80
