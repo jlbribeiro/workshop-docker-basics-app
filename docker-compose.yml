@@ -1,0 +1,6 @@
+version: "2"
+
+services:
+  web:
+    image: "python:3.5-alpine"
+    command: "python main.py"
