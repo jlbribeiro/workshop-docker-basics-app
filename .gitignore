@@ -1,0 +1,10 @@
+# In case we run this outside of the container
+*.pyc
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
