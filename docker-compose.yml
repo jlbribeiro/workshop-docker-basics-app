@@ -2,5 +2,5 @@ version: "2"
 
 services:
   web:
-    image: "python:3.5-alpine"
+    build: .
     command: "python main.py"
