@@ -8,3 +8,6 @@ services:
       - .:/code
     ports:
       - "8080:80"
+
+  redis:
+    image: "redis:3-alpine"
